@@ -23,5 +23,9 @@ Para finalizar minha compra
     Então deve exibir a <mensagem> de erro
 
     Exemplos:
-      | usuario                | senha   | mensagem                     |
-      | "otavio@maiolmail.com" | "12345" | "Formato de e-mail inválido" |
+      | usuario                | senha       | mensagem                     |
+      | "otavio@maiolmail.com" | "12345"     | "Formato de e-mail inválido" |
+      | "otavio@meoalmail.com" | "12345"     | "Formato de e-mail inválido" |
+      | "otavio@emailivre.com" | "12345"     | "Formato de e-mail inválido" |
+      | "otavio@maiolmail.com" | "errada111" | "Formato de e-mail inválido" |
+      | "otavio@maiolmail.com" | "falhou111" | "Formato de e-mail inválido" |

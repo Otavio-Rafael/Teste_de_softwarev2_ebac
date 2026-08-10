@@ -10,13 +10,11 @@ Para depois inserir no carrinho
 Cenário: Adicionar produtos cor, tamanho e quantidade
 Dado que eu acesse a loja ebac para adicionar um produto ao carrinho
 Quando eu for adicionar o produto ao carrinho devo selecionar a cor, tamanho e quantidade
-E caso eu não selecione cor, tamanho e quantidade
 Então deve exibir a mensagem "para adicionar um produto selecione a cor, tamanho e quantidade" e bloquear
 
 Cenário: Adicionar produtos máximo 10 produtos
 Dado que eu acesse a loja ebac para adicionar produtos ao carrinho
 Quando eu for adicionar o produto ao carrinho devo selecionar a quantidade de produtos
-E caso passe de 10 produtos adicionados
 Então deve exibir a mensagem "é permitido no máximo 10 produtos por compra" e bloquear
 
 Cenário: Limpar produtos do carrinho
